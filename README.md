@@ -1,4 +1,4 @@
-# ContentFilterDemo-iOS
+# ContentFilterDemoApp-iOS
 A simple example of Network-Extension(content-filter) iOS app using swift. 
 
 ## Disclaimer
