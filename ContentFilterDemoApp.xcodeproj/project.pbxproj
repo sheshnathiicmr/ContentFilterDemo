@@ -20,6 +20,9 @@
 		2BA8F55821CCBF6C00A8BBD8 /* NetworkExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BA8F52B21CCB5E300A8BBD8 /* NetworkExtension.framework */; };
 		2BA8F55921CCCCA600A8BBD8 /* ContentFilter.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 2BA8F53321CCB6EA00A8BBD8 /* ContentFilter.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		2BA8F55D21CCCCAB00A8BBD8 /* ContentFilterData.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 2BA8F54421CCB73100A8BBD8 /* ContentFilterData.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		2BA8F56121CCF32400A8BBD8 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 2BA8F56021CCF32300A8BBD8 /* README.md */; };
+		2BA8F56221CCF32400A8BBD8 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 2BA8F56021CCF32300A8BBD8 /* README.md */; };
+		2BA8F56321CCF32400A8BBD8 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 2BA8F56021CCF32300A8BBD8 /* README.md */; };
 		2BFAFE2C21CCB25C004B3A1C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BFAFE2B21CCB25C004B3A1C /* AppDelegate.swift */; };
 		2BFAFE2E21CCB25C004B3A1C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BFAFE2D21CCB25C004B3A1C /* ViewController.swift */; };
 		2BFAFE3121CCB25C004B3A1C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BFAFE2F21CCB25C004B3A1C /* Main.storyboard */; };
@@ -72,6 +75,7 @@
 		2BA8F54821CCB73100A8BBD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2BA8F54921CCB73100A8BBD8 /* ContentFilterData.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ContentFilterData.entitlements; sourceTree = "<group>"; };
 		2BA8F55221CCB7B600A8BBD8 /* Log.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Log.swift; sourceTree = "<group>"; };
+		2BA8F56021CCF32300A8BBD8 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		2BFAFE2821CCB25C004B3A1C /* ContentFilterDemoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ContentFilterDemoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BFAFE2B21CCB25C004B3A1C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2BFAFE2D21CCB25C004B3A1C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -149,6 +153,7 @@
 		2BFAFE1F21CCB25C004B3A1C = {
 			isa = PBXGroup;
 			children = (
+				2BA8F56021CCF32300A8BBD8 /* README.md */,
 				2BFAFE2A21CCB25C004B3A1C /* ContentFilterDemoApp */,
 				2BA8F53421CCB6EA00A8BBD8 /* ContentFilter */,
 				2BA8F54521CCB73100A8BBD8 /* ContentFilterData */,
@@ -312,6 +317,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2BA8F56221CCF32400A8BBD8 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -319,6 +325,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2BA8F56321CCF32400A8BBD8 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -328,6 +335,7 @@
 			files = (
 				2BFAFE3621CCB25E004B3A1C /* LaunchScreen.storyboard in Resources */,
 				2BFAFE3321CCB25E004B3A1C /* Assets.xcassets in Resources */,
+				2BA8F56121CCF32400A8BBD8 /* README.md in Resources */,
 				2BFAFE3121CCB25C004B3A1C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
