@@ -25,4 +25,5 @@ This demo app's purpose is to demonstrate the bare minimum required to block net
 
 ## References:
 * https://developer.apple.com/documentation/networkextension
+* https://www.appcaretaker.com/2018/12/21/ios-on-device-network-content-filtering-systemnetwork-extension/
 
